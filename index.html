@@ -1,0 +1,271 @@
+<html><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&family=Inter%3Awght%40400%3B500%3B600%3B700%3B800&family=Playfair+Display%3Awght%40400%3B500%3B600%3B700%3B900&family=Montserrat%3Awght%40400%3B500%3B600%3B700%3B900&family=Roboto%3Awght%40400%3B500%3B600%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #0c7ff2;
+        --secondary-color: #49739c;
+        --text-primary: #0d141c;
+        --text-secondary: #49739c;
+        --background-light: #f8fafc;--background-card: #ffffff;
+        --border-color: #e2e8f0;}
+      .font-playfair {
+        font-family: "Playfair Display", serif;
+      }
+      .font-inter {
+        font-family: "Inter", sans-serif;
+      }
+      .font-montserrat {
+        font-family: "Montserrat", sans-serif;
+      }
+      .font-roboto {
+        font-family: "Roboto", sans-serif;
+      }
+      .premium-shadow {
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);}
+      .card {
+        background-color: var(--background-card);
+        border-radius: 0.75rem;padding: 1rem;margin-bottom: 1rem;}
+       .sticky-header {
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        background-color: var(--background-light);
+        border-bottom: 1px solid var(--border-color);
+       }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-[var(--background-light)] font-inter">
+<div class="relative flex size-full min-h-screen flex-col justify-between group/design-root overflow-x-hidden">
+<div>
+<div class="sticky-header flex items-center p-4">
+<div class="text-[var(--text-primary)] flex size-8 shrink-0 items-center" data-icon="List" data-size="24px" data-weight="regular">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"></path>
+</svg>
+</div>
+<h1 class="font-playfair text-[var(--text-primary)] text-xl font-bold leading-tight tracking-tight flex-1 text-center pr-8">Morning Bundle</h1>
+</div>
+<div class="flex items-center gap-3 bg-[var(--background-light)] px-4 py-3 border-b border-[var(--border-color)]">
+<div class="text-orange-500 flex items-center justify-center rounded-full bg-orange-100 shrink-0 size-10" data-icon="Fire" data-size="24px" data-weight="bold">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg"><path d="M232,144a80,80,0,0,1-145.85-56.6C89.07,57,110.06,32,110.06,32a8,8,0,0,1,14.66,6.29c-1.15,8-2.3,16.52-2.3,25.71,0,21.63,14.76,45.12,26.77,59.33,12.15,14.39,26.73,22.67,26.73,34.67A16,16,0,0,1,160,176H96a16,16,0,0,1-16-16c0-12,14.58-20.28,26.73-34.67C118.74,110.94,133.5,87.45,133.5,64c0-9.19-1.15-17.72-2.3-25.71a8,8,0,0,1,6.41-9.06,7.89,7.89,0,0,1,8.25,2.77s21,25,23.92,54.6C172.93,120.65,198.11,128.85,216,128c10.17-.47,16-6.43,16-16,0-13.33-14.92-27.77-24.54-38.3S191,56.69,191,48a8,8,0,0,1,16,0c0,5.34,3.32,12.81,11.25,20.75S232,83.62,232,96c0,13.07-14.71,28.12-28,38.07V136A24,24,0,0,0,232,144Z"></path></svg>
+</div>
+<p class="font-inter text-[var(--text-primary)] text-base font-semibold leading-normal flex-1 truncate">28 Day Streak! <span class="font-normal text-[var(--text-secondary)]">You're on fire!</span></p>
+</div>
+<div class="px-4 pt-6 pb-4">
+<h2 class="font-playfair text-[var(--text-primary)] text-xl font-bold leading-tight tracking-tight mb-2">Editor's Note</h2>
+<p class="font-inter text-[var(--text-secondary)] text-base font-normal leading-relaxed">
+            Good morning, readers! Today's bundle is packed with insights to kickstart your day. From global market trends to local events, we've got you covered. Enjoy the read!
+          </p>
+</div>
+<div class="px-4 pt-4 pb-2">
+<h2 class="font-playfair text-[var(--text-primary)] text-xl font-bold leading-tight tracking-tight mb-3">Top Headlines</h2>
+<div class="space-y-4">
+<div class="card premium-shadow flex items-start justify-between gap-4">
+<div class="flex flex-col gap-1 flex-[2_2_0px]">
+<p class="font-inter text-[var(--primary-color)] text-xs font-semibold uppercase tracking-wider">Politics</p>
+<h3 class="font-playfair text-[var(--text-primary)] text-lg font-semibold leading-tight">Government Announces New Economic Plan</h3>
+<p class="font-inter text-[var(--text-secondary)] text-sm font-normal leading-relaxed">
+                  The government unveiled a comprehensive economic plan aimed at boosting growth and reducing unemployment. Key measures include tax reforms and infrastructure
+                  investments.
+                </p>
+</div>
+<div class="w-24 h-24 bg-center bg-no-repeat bg-cover rounded-lg flex-shrink-0" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCvQ5QWa6rHim-aNWLODKgDBsLASL61veRUwX-1RN_woJBGVwlAB-ADeBruYVZDnp2B5iZte2qRo10ius3U3GNiSgkfPKewqLgeyH8WmAHg2yxT8CZtn0wbdXt0ZmB0GCxHs3-TNanujH5A0nSRJk-b2d-niblAYALMflTCCaCTZzKZYj99K1N0lUeiLW-rsqrm-Nko-bM4ampgiVyPfzlYWcr8-y2JNQ5DpnmK3Ehbu4QkBdmlMV5xjq2qIfX6LmPIq6SI6Av2BbCO");'></div>
+</div>
+<div class="card premium-shadow flex items-start justify-between gap-4">
+<div class="flex flex-col gap-1 flex-[2_2_0px]">
+<p class="font-inter text-[var(--primary-color)] text-xs font-semibold uppercase tracking-wider">Technology</p>
+<h3 class="font-playfair text-[var(--text-primary)] text-lg font-semibold leading-tight">Tech Giant Launches Innovative AI Product</h3>
+<p class="font-inter text-[var(--text-secondary)] text-sm font-normal leading-relaxed">
+                  A leading tech company introduced a groundbreaking AI product that promises to revolutionize various industries. The product features advanced machine learning
+                  capabilities.
+                </p>
+</div>
+<div class="w-24 h-24 bg-center bg-no-repeat bg-cover rounded-lg flex-shrink-0" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC8wEWRq40SvCzoCYVer3wr1_VWthB-w4AWVpk-fK9d2MIRghx4GjOxrbDTYNeZ88BBMkQ25eMXXfqyT71tdD8X8vlLnA45V49-2QmdMUkLM_u8fbM-2EA1ulNPBmI5K7kKa1LmXylISgs8PLjIrFppY0VViHhS8tz8KAK4VGy5_vVFycD13-drG4EMGtAyDK6jj-cLcl0QSDEN5iyG6NwMA8hVW5nexNESKPRg6Vkxo6Lv1niTZnhpYfGLnzbdEOaGY5EmMyKZphQa");'></div>
+</div>
+<div class="card premium-shadow flex items-start justify-between gap-4">
+<div class="flex flex-col gap-1 flex-[2_2_0px]">
+<p class="font-inter text-[var(--primary-color)] text-xs font-semibold uppercase tracking-wider">Environment</p>
+<h3 class="font-playfair text-[var(--text-primary)] text-lg font-semibold leading-tight">New Initiative to Combat Climate Change</h3>
+<p class="font-inter text-[var(--text-secondary)] text-sm font-normal leading-relaxed">
+                  A global initiative was launched to address climate change, focusing on renewable energy and sustainable practices. The initiative aims to reduce carbon emissions
+                  significantly.
+                </p>
+</div>
+<div class="w-24 h-24 bg-center bg-no-repeat bg-cover rounded-lg flex-shrink-0" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBmUaI7dVzKPXhrguc9g8UJLVP8dywOTDiG7MU5Bx1lKBkvrkqADd5glPEAHTrPcFKPuZI4yPk07htontbGLD3GxO-HIcUjBtb5ZKLiOaEnnw6COkDD8t6MjEsSApZ6IA6-FyA1X5kxeZTKI7T_nKIbRin4SohxCGzMjb_L9wWESAW8Bz36hxi_ZLvnVymEX88rYXq0BPTsCmiq49Iv4LDZFFyNIsiscoiiTjG7I6zPDgY6r9QuBPRg11tVenU6JIY12J0huXzPdhUA");'></div>
+</div>
+</div>
+</div>
+<div class="px-4 pt-6 pb-4">
+<h2 class="font-playfair text-[var(--text-primary)] text-xl font-bold leading-tight tracking-tight mb-2">One-Click Poll</h2>
+<p class="font-inter text-[var(--text-secondary)] text-base font-normal leading-relaxed mb-3">Do you think the new economic plan will be effective?</p>
+<div class="flex gap-3">
+<button class="flex flex-1 cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-4 bg-[var(--primary-color)] text-white text-base font-semibold leading-normal tracking-wide premium-shadow hover:bg-blue-600 transition-colors">
+<span class="truncate">Yes</span>
+</button>
+<button class="flex flex-1 cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-4 bg-slate-200 text-[var(--text-primary)] text-base font-semibold leading-normal tracking-wide premium-shadow hover:bg-slate-300 transition-colors">
+<span class="truncate">No</span>
+</button>
+</div>
+</div>
+<div class="pt-6 pb-4">
+<h2 class="font-playfair text-[var(--text-primary)] text-xl font-bold leading-tight tracking-tight px-4 mb-3">Community Showcase</h2>
+<div class="flex overflow-x-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden pl-4 pr-2">
+<div class="flex items-stretch gap-3">
+<div class="flex flex-col gap-3 rounded-lg min-w-[160px] w-40 bg-[var(--background-card)] p-3 premium-shadow">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-md" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDn7puOLZ5F80wcDuG81osgGYq3vq3eIn6s-XCUlI1uLkC13qddoNSzfl5v5AX_UIeouPJHjOi50iWWbr7O0zBCLnnooRj9VZZUQMgkm1MIIN_IQGdvmYQQFpf55G2E9iBbczGGw-ckC9ZxGZfWE6Ph6QE6BDamrG1fcN4fVTuVVBbcGMQ54bwDIm0GrJK7Op3mXvlvH4j9G5_tbD6rV910TZZnxW5GhSX-HJbmUp2FpIJp_61IZTg-4uZyeILSzCns3NbUvr-FYoHj");'></div>
+<p class="font-inter text-[var(--text-primary)] text-sm font-medium leading-snug">"I'm optimistic about the future!"</p>
+</div>
+<div class="flex flex-col gap-3 rounded-lg min-w-[160px] w-40 bg-[var(--background-card)] p-3 premium-shadow">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-md" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCsAX_2NprbfM79NfGYNQo4xsjS8TIEnz08xEq7KxdKE34xtPW4oW3GafGwfzoNkPjUQOKI6wMClQNPXdGfosTYTLWQPbE-9VqUymGTFAaq2N5FyEZRvbmBA1tbbodwF_8OtMAkhDrt_98qk2C3NSNSpi7SgEkvZTWB8q88l_3NofWEL5WBAwgYT2W9ZQi_AdROqN2cDNPnWLFKzc9AHGeYK0A4Ke1-vNrcYwZ6IaVqw_bsuKvq1WBETX-p4Ors4fFt6vnzslQFShHm");'></div>
+<p class="font-inter text-[var(--text-primary)] text-sm font-medium leading-snug">"Cautiously optimistic, but we'll see."</p>
+</div>
+<div class="flex flex-col gap-3 rounded-lg min-w-[160px] w-40 bg-[var(--background-card)] p-3 premium-shadow">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-md" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDdyjqdohFKm0CtgU0MjYunmqcc75BC2G_TmmTSF_lEyK7D_r3mc6sDdrqrOBrBZFbZxJ6WSQQNbafEselNeWAPWEHUwLg1Kls3dcNsKCT6GXa6rIb_6R1HDXbSOmhARTiMkVrH_qUwXBVDw37OlTVzsscGNV-4HrnWZNOQu3p78DisdYjWk4GMUUX1b7JgPMZFr0iqcBXKiiBj3EitjIe_ihDmT4S1KTchYIWwLLyad4FhE-TQvbg8MZTWx58V0rO1lZocHnHmT4nP");'></div>
+<p class="font-inter text-[var(--text-primary)] text-sm font-medium leading-snug">"I have my doubts, but hope for the best."</p>
+</div>
+<div class="flex flex-col gap-3 rounded-lg min-w-[160px] w-40 bg-[var(--background-card)] p-3 premium-shadow">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-md" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDw6aHqq8llEQAh2E4_oSbDdI8caCzw8Evqj8cGxmpHjszAZZnXJAnVzzTHoffLX_ExaKLMEpjjga2XhfQTinoKGSvoUoNzJdmPxR3KBVlLDDjpiIxcHG0suAn6eN3DNXs13YAvw5Ft1XwtAb6VZWrVxccTKEWv8L5KZ_aQRPh8MBWLSs2srx2TkYpzqvuWdvx_a9TwHnQgI7ydqHY7FEbyFBXPrY5utGGLBDe2nEceBODGFtKqO1ipu0_aSBxnxTWTwlmn5q7I40dc");'></div>
+<p class="font-inter text-[var(--text-primary)] text-sm font-medium leading-snug">"Not convinced, more needs to be done."</p>
+</div>
+<div class="flex flex-col gap-3 rounded-lg min-w-[160px] w-40 bg-[var(--background-card)] p-3 premium-shadow mr-4">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-md" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBaWs5alapifQobQVlAFYw4gTJ6b-vlGLTR6S_DGchnSK9GxIONrTGX5KPXH9e5zNC8rGNIIZzg8i_M1uoc6O-ISCF6A-jC5WQfkfJ1llGGQP2NQXslYBGzEtwGf3uoP4uRYln96rCYCBlJ2iH9xUtmP_ShJwE5Imn3Qg38JhiftCiddl_QjJoH2GeEGOQTGyGiVAUsRrXJWEsw-Q-INtLzDZ5qDNh77RLc_B4Cu2M9aYerljHoho8rhxR7eeCjLh6ntAZZhR3BS8zg");'></div>
+<p class="font-inter text-[var(--text-primary)] text-sm font-medium leading-snug">"I'm hopeful for positive change."</p>
+</div>
+</div>
+</div>
+</div>
+<div class="px-4 pt-6 pb-2">
+<h2 class="font-playfair text-[var(--text-primary)] text-xl font-bold leading-tight tracking-tight mb-3">What Was Read?</h2>
+<div class="space-y-4">
+<div class="card premium-shadow flex items-start justify-between gap-4">
+<div class="flex flex-col gap-1 flex-[2_2_0px]">
+<h3 class="font-playfair text-[var(--text-primary)] text-lg font-semibold leading-tight">The Future of Work: Remote vs. In-Office</h3>
+<p class="font-inter text-[var(--text-secondary)] text-sm font-normal leading-relaxed">
+                  A comprehensive analysis of the ongoing debate about remote work versus in-office setups, exploring the pros and cons of each.
+                </p>
+</div>
+<div class="w-20 h-20 bg-center bg-no-repeat bg-cover rounded-lg flex-shrink-0" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAojWtZAwiElJyCxvKWF0I8WFa7oeU5Ec-zaDo2QPHLlErLvdNACNt5VgxVAF6Ra5FW4_St8baWrIY8Um-_NPkyVdwUGz7vefY6IqrKegJgp4qP8M73sy7iAafI5UmwRJ1EtlIXs29M2J9w22m77mZOHeTsSeqeQx7c2V_WofsOWRsPvGCCm_axVwmuOy-AM4yMG1VlvtfRtpA17BBZ6zcEVDN1zvENCgychB-LYVE1BxwbH2aKVG6hR4jEuodIinpi5EptN9WCEsZa");'></div>
+</div>
+<div class="card premium-shadow flex items-start justify-between gap-4">
+<div class="flex flex-col gap-1 flex-[2_2_0px]">
+<h3 class="font-playfair text-[var(--text-primary)] text-lg font-semibold leading-tight">Investing in Emerging Markets: Opportunities and Risks</h3>
+<p class="font-inter text-[var(--text-secondary)] text-sm font-normal leading-relaxed">
+                  An in-depth look at the potential rewards and challenges of investing in emerging markets, with insights from financial experts.
+                </p>
+</div>
+<div class="w-20 h-20 bg-center bg-no-repeat bg-cover rounded-lg flex-shrink-0" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA2xXoNOS5DJNdfedBgguksIYdMCsGz6MWRJ54hcz7_NvM0swQ10-JAwsjRocU10ej9j7vP1MRkx5lN4ArB44whtMEINaBENx6zoj1zNfJTdoxR8NNwWcQnHwJUQI-Wrj__Jt6FXikYucR4hlPf6eeLswgBHi8hTTcvMX1yXNp0RcrmknUF5Sy-Kxz0_NW1UeVi3AszFBhPurRqQde4lixYfpOfVtAmmiS5sy8IVGG0Q2MttujntO5tJqXUqgSN83NpbfH7T_-dcMfb");'></div>
+</div>
+</div>
+</div>
+<div class="px-4 pt-6 pb-2">
+<h2 class="font-playfair text-[var(--text-primary)] text-xl font-bold leading-tight tracking-tight mb-3">What's Happening Today?</h2>
+<div class="space-y-3">
+<div class="flex items-center gap-3 p-3 bg-[var(--background-card)] rounded-lg premium-shadow">
+<div class="text-[var(--primary-color)] flex items-center justify-center rounded-lg bg-blue-100 shrink-0 size-10" data-icon="Calendar" data-size="24px" data-weight="regular">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM72,48v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80H48V48ZM208,208H48V96H208V208Zm-96-88v64a8,8,0,0,1-16,0V132.94l-4.42,2.22a8,8,0,0,1-7.16-14.32l16-8A8,8,0,0,1,112,120Zm59.16,30.45L152,176h16a8,8,0,0,1,0,16H136a8,8,0,0,1-6.4-12.8l28.78-38.37A8,8,0,1,0,145.07,132a8,8,0,1,1-13.85-8A24,24,0,0,1,176,136,23.76,23.76,0,0,1,171.16,150.45Z"></path>
+</svg>
+</div>
+<p class="font-inter text-[var(--text-primary)] text-base font-medium leading-normal flex-1 truncate">City Council Meeting at 7 PM</p>
+</div>
+<div class="flex items-center gap-3 p-3 bg-[var(--background-card)] rounded-lg premium-shadow">
+<div class="text-[var(--primary-color)] flex items-center justify-center rounded-lg bg-blue-100 shrink-0 size-10" data-icon="Basket" data-size="24px" data-weight="regular">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M136,120v56a8,8,0,0,1-16,0V120a8,8,0,0,1,16,0ZM239.86,98.11,226,202.12A16,16,0,0,1,210.13,216H45.87A16,16,0,0,1,30,202.12l-13.87-104A16,16,0,0,1,32,80H68.37L122,18.73a8,8,0,0,1,12,0L187.63,80H224a16,16,0,0,1,15.85,18.11ZM89.63,80h76.74L128,36.15ZM224,96H32L45.87,200H210.13Zm-51.16,23.2-5.6,56A8,8,0,0,0,174.4,184a7.44,7.44,0,0,0,.81,0,8,8,0,0,0,7.95-7.2l5.6-56a8,8,0,0,0-15.92-1.6Zm-89.68,0a8,8,0,0,0-15.92,1.6l5.6,56a8,8,0,0,0,8,7.2,7.44,7.44,0,0,0,.81,0,8,8,0,0,0,7.16-8.76Z"></path>
+</svg>
+</div>
+<p class="font-inter text-[var(--text-primary)] text-base font-medium leading-normal flex-1 truncate">Local Farmers Market Open Until 6 PM</p>
+</div>
+<div class="flex items-center gap-3 p-3 bg-[var(--background-card)] rounded-lg premium-shadow">
+<div class="text-[var(--primary-color)] flex items-center justify-center rounded-lg bg-blue-100 shrink-0 size-10" data-icon="Users" data-size="24px" data-weight="regular">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M117.25,157.92a60,60,0,1,0-66.5,0A95.83,95.83,0,0,0,3.53,195.63a8,8,0,1,0,13.4,8.74,80,80,0,0,1,134.14,0,8,8,0,0,0,13.4-8.74A95.83,95.83,0,0,0,117.25,157.92ZM40,108a44,44,0,1,1,44,44A44.05,44.05,0,0,1,40,108Zm210.14,98.7a8,8,0,0,1-11.07-2.33A79.83,79.83,0,0,0,172,168a8,8,0,0,1,0-16,44,44,0,1,0-16.34-84.87,8,8,0,1,1-5.94-14.85,60,60,0,0,1,55.53,105.64,95.83,95.83,0,0,1,47.22,37.71A8,8,0,0,1,250.14,206.7Z"></path>
+</svg>
+</div>
+<p class="font-inter text-[var(--text-primary)] text-base font-medium leading-normal flex-1 truncate">Community Cleanup Event at 9 AM</p>
+</div>
+</div>
+</div>
+<div class="px-4 pt-6 pb-2">
+<h2 class="font-playfair text-[var(--text-primary)] text-xl font-bold leading-tight tracking-tight mb-3">Bundle Global</h2>
+<div class="card premium-shadow @container">
+<div class="w-full bg-center bg-no-repeat aspect-[16/9] bg-cover rounded-lg mb-3" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBZxe_25qHWSKNoPFFhIThu5iqjonnA5rahihSH0VuFcvFMNuJKBKTvbNf2N1DrtAfizjHJUxrA_7y-MclfgFYJhiUhsyDvE_0kmvQAEWHUR3UknpHTGbZ-nutMNHn2quQmSU4kuQbMvo4CtLFnxRS0Ijeb41SiduHiYij7HpdSrH7z69Qqo1Fj424YqpfXRhRjbC6acyjuSJIDQzUXLZgcZAH-N22bYrpTq_Qf4s1ihWjskOxtIe8W5tGbtSr381pChuMSEGFNBaUQ");'></div>
+<div class="flex flex-col gap-1">
+<h3 class="font-playfair text-[var(--text-primary)] text-xl font-bold leading-tight tracking-tight">Geopolitical Tensions Rise in Eastern Europe</h3>
+<p class="font-inter text-[var(--text-secondary)] text-base font-normal leading-relaxed">
+                Recent developments in Eastern Europe have heightened geopolitical tensions, raising concerns about regional stability and international relations. Experts
+                weigh in on the potential implications.
+              </p>
+<p class="font-inter text-[var(--primary-color)] text-sm font-semibold leading-normal mt-1">Analysis</p>
+</div>
+</div>
+</div>
+<div class="px-4 pt-6 pb-2">
+<h2 class="font-playfair text-[var(--text-primary)] text-xl font-bold leading-tight tracking-tight mb-3">Finance Hub</h2>
+<div class="relative rounded-xl overflow-hidden premium-shadow mb-4">
+<div class="bg-cover bg-center flex flex-col items-stretch justify-end min-h-[240px]" style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.1) 60%, rgba(0, 0, 0, 0) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuAluiRFOqTdjuGxKUp_n_ar1umzDpilrXub1L0nl5DuVSz0ncds0WpkMtk2itcTu5x7ITQUcrsEtR3f6thOQo-LfWfrwt1o9tb6HiU9AJYjUCb3O0nb6XgO8GCrp1bEFoIkolY3FiwQknsx7DnbcbWBbPx1184pJl-t2J9Fugns4E0uSqv-eTADfDrGtE2gglnIAyFu9N5uboPcvnK28DFAAWCtunVxiLYolA7pRbMLZw_7xXuQKSSZpOVNC4Msm9xjfegR2unDZRzD");'>
+<div class="flex flex-col gap-2 p-4">
+<h3 class="font-playfair text-white text-2xl font-bold leading-tight">Market Commentary</h3>
+<p class="font-inter text-slate-200 text-sm font-normal leading-relaxed">
+                  Global markets showed mixed signals today, with some sectors experiencing gains while others faced losses. Investors are advised to monitor developments closely.
+                </p>
+<button class="mt-2 self-start flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[var(--primary-color)] text-white text-sm font-semibold leading-normal tracking-wide hover:bg-blue-600 transition-colors">
+<span class="truncate">View Full Report</span>
+</button>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-x-2 bg-[var(--background-card)] rounded-lg premium-shadow p-1">
+<div class="flex flex-col gap-0.5 border-b border-[var(--border-color)] py-3 px-3">
+<p class="font-inter text-[var(--text-secondary)] text-xs font-medium leading-normal">Dolar</p>
+<p class="font-playfair text-[var(--text-primary)] text-base font-semibold leading-normal">$1.05</p>
+</div>
+<div class="flex flex-col gap-0.5 border-b border-[var(--border-color)] py-3 px-3">
+<p class="font-inter text-[var(--text-secondary)] text-xs font-medium leading-normal">Euro</p>
+<p class="font-playfair text-[var(--text-primary)] text-base font-semibold leading-normal">€1.15</p>
+</div>
+<div class="flex flex-col gap-0.5 border-b border-[var(--border-color)] py-3 px-3">
+<p class="font-inter text-[var(--text-secondary)] text-xs font-medium leading-normal">BIST100</p>
+<p class="font-playfair text-[var(--text-primary)] text-base font-semibold leading-normal">10,500</p>
+</div>
+<div class="flex flex-col gap-0.5 border-b border-[var(--border-color)] py-3 px-3">
+<p class="font-inter text-[var(--text-secondary)] text-xs font-medium leading-normal">Gold (Gram)</p>
+<p class="font-playfair text-[var(--text-primary)] text-base font-semibold leading-normal">1,850</p>
+</div>
+<div class="flex flex-col gap-0.5 py-3 px-3"> 
+<p class="font-inter text-[var(--text-secondary)] text-xs font-medium leading-normal">Bitcoin</p>
+<p class="font-playfair text-[var(--text-primary)] text-base font-semibold leading-normal">$65,000</p>
+</div>
+<div class="flex flex-col gap-0.5 py-3 px-3"> 
+<p class="font-inter text-[var(--text-secondary)] text-xs font-medium leading-normal">S&P 500</p>
+<p class="font-playfair text-[var(--text-primary)] text-base font-semibold leading-normal">5,200</p>
+</div>
+</div>
+</div>
+<div class="px-4 pt-6 pb-8">
+<h2 class="font-playfair text-[var(--text-primary)] text-xl font-bold leading-tight tracking-tight mb-2">Question of the Day</h2>
+<p class="font-inter text-[var(--text-secondary)] text-base font-normal leading-relaxed mb-4">What are your thoughts on the future of remote work?</p>
+<button class="w-full flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-4 bg-[var(--primary-color)] text-white text-base font-semibold leading-normal tracking-wide premium-shadow hover:bg-blue-600 transition-colors">
+<span class="truncate">Share Your Answer</span>
+</button>
+</div>
+</div>
+<div class="border-t border-[var(--border-color)] bg-[var(--background-light)]">
+<p class="font-inter text-[var(--text-secondary)] text-xs font-normal leading-normal py-4 px-4 text-center">
+          © 2024 Daily Briefing | New York | <a class="text-[var(--primary-color)] hover:underline" href="#">Notification Settings</a>
+</p>
+<div class="h-5 bg-[var(--background-light)]"></div> 
+</div>
+</div>
+
+</body></html>
